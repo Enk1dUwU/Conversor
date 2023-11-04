@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+function convertPNG() {
     const fileInput = document.getElementById("webpFile");
     const convertButton = document.getElementById("convertButtonpng");
     const downloadLink = document.getElementById("downloadLinkpng");
