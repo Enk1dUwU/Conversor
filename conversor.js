@@ -1,4 +1,4 @@
-function convertPNG() {
+document.addEventListener("DOMContentLoaded", function () {
     const fileInput = document.getElementById("webpFile");
     const convertButton = document.getElementById("convertButtonpng");
     const downloadLink = document.getElementById("downloadLinkpng");
@@ -44,7 +44,7 @@ function convertToMP3() {
     const mp4File = document.getElementById('mp4File').files[0];
     const mp4name = mp4File.name;
     const filename = mp4name.split(".");
-    const mp3name = filename[0] + ".png";
+    const mp3name = filename[0] + ".mp3";
     if (!mp4File) {
         alert('Selecciona un archivo MP4.');
         return;
